@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+	--megasena: #298C5F;
+	--quina: #261383;
+	--lotofacil: #921788;
+	--lotomania: #F58123;
+	--timemania: #3DAF3E;
+	--duplasena: #A41628;
+	--federal: #133497;
+	--diadesorte: #CA8536;
+	--supersete: #A9CF50;
+	}
+
+.loteria-resultado {
+	border: 1px solid #CBCBCB;
+	margin-bottom: 20px;
+	max-width: 903px;
+	font-family: "Inter", sans-serif;
+}
+
+.loteria-resultado p.concurso-data {
+	color:#fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 22px;
+	font-weight: 400;
+}
+
+
+.loteria-resultado.megasena p.concurso-data, .loteria-resultado.megasena .dezenas li {
+	background: var(--megasena);
+}
+
+.loteria-resultado.lotofacil p.concurso-data, .loteria-resultado.lotofacil .dezenas li {
+	background: var(--lotofacil);
+}
+
+.loteria-resultado.lotomania p.concurso-data, .loteria-resultado.lotomania .dezenas li{
+	background: var(--lotomania);
+}
+
+.loteria-resultado.timemania p.concurso-data, .loteria-resultado.timemania .dezenas li {
+	background: var(--timemania);
+}
+
+.loteria-resultado.duplasena p.concurso-data, .loteria-resultado.duplasena .dezenas li {
+	background: var(--duplasena);
+}
+
+.loteria-resultado.federal p.concurso-data, .loteria-resultado.federal .dezenas li {
+	background: var(--federal);
+}
+
+.loteria-resultado.diadesorte p.concurso-data, .loteria-resultado.diadesorte .dezenas li {
+	background: var(--diadesorte);
+}
+
+.loteria-resultado.supersete p.concurso-data, .loteria-resultado.supersete .dezenas li {
+	background: var(--supersete);
+	color: #333;
+}
+
+
+
+.loteria-resultado.quina  table thead tr td {
+	color: var(--quina);
+}
+.loteria-resultado.lotofacil  table thead tr td {
+	color: var(--lotofacil);
+}
+.loteria-resultado.lotomania  table thead tr td {
+	color: var(--lotomania);
+}
+.loteria-resultado.timemania  table thead tr td {
+	color: var(--timemania);
+}
+.loteria-resultado.duplasena  table thead tr td {
+	color: var(--duplasena);
+}
+.loteria-resultado.federal  table thead tr td {
+	color: var(--federal);
+}
+.loteria-resultado.diadesorte  table thead tr td {
+	color: var(--diadesorte);
+}
+
+.loteria-resultado.supersete  table thead tr td {
+	color: var(--supersete);
+}
+
+
+.loteria-resultado h2 {
+	margin:0;
+	color: #333;
+}
+
+.loteria-resultado p {
+	margin: 5px 0;
+	color: #555;
+}
+
+.loteria-resultado .dezenas {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	gap:10px;
+	justify-content: center;
+	border-bottom: 1px solid #CBCBCB;
+	padding: 38px 0;
+	margin-bottom: 38px;
+}
+
+.loteria-resultado .dezenas li {
+	background: #298C5F;
+	font-size: 20px;
+	font-weight: 800;
+	width: auto;
+	height: auto;
+	min-width: 67px;
+	padding: 10px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:#fff;
+}
+
+.loteria-resultado.megasena .dezenas li {
+	height: 67px;
+}
+
+.loteria-resultado .premio {
+	text-align: center;
+	padding-bottom: 38px;
+	border-bottom: 1px solid #CBCBCB;
+
+}
+
+.loteria-resultado .premio h3 {
+	font-size: 20px;
+	color:#1E1E1E;
+	font-weight: 800;
+}
+
+.loteria-resultado .premio span {
+	font-weight: 800;
+	font-size: 24px;
+	color: #1E1E1E;
+	border-bottom: 1px solid #CBCBCB;
+	display: block;
+	margin-bottom: 60px;
+	padding-bottom: 35px;
+}
+
+.loteria-resultado table {
+	width: 100%;
+}
+
+.loteria-resultado table tr{
+	border-bottom: 1px solid #CBCBCB;
+}
+
+.loteria-resultado table tr:last-child {
+	border-bottom: 0;
+}
+
+.loteria-resultado table thead tr td {
+	color: #298C5F;
+	font-size: 20px;
+	font-weight: 800;
+	width: 33%;
+}
+
+.loteria-resultado table tr td {
+	padding: 10px;
+	font-size: 20px;
+	color:#1E1E1E;
+}
